@@ -112,7 +112,7 @@ function usunBtn(){
   // Wyzeruj kolory
   $(".empty-color").click(function(){
     const empty = $(".container .list-group-item");
-    empty.css('background-color','white');
+    empty.css('background-color','rgb(12, 158, 158)');
   });
   // class active
   $(".container").on("click", ".list-group-item", function(){
@@ -139,7 +139,7 @@ function usunBtn(){
     $(".container li").each(function() {
       var text = $(this).text().toLowerCase();
       if (text.includes(input)) {
-        $(this).css("background-color","red");
+        $(this).css("background-color","lightblue");
       } else {
         $(this).hide();
       }
