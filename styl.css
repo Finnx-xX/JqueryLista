@@ -8,8 +8,8 @@ li{
 .tytul{
   text-align: center;
   color: rgb(2, 95, 95);
-  font-size: 20px;
   text-shadow: 5px 0px 10px;
+
 }
 .active{
   background-color:lightblue;
@@ -17,17 +17,20 @@ li{
 
 .main{
   text-align: center;
+  background-color:rgb(14, 181, 181);
+  width:1000px;
+  margin:auto;
 }
 
 button{
-  padding:8px;
-  margin:10px;
+  padding:6px;
+  margin:8px;
   width:200px;
-  height: 60px;
+  height: 50px;
   font-weight: bold;
-  text-shadow: 3px 3px 10px;
-  box-shadow: 10px 10px 15px;
-  border-radius: 50px;
+  text-shadow: 3px 3px 7px;
+  box-shadow: 8px 8px 12px;
+  border-radius: 25px;
 }
 input{
   margin-top:10px;
@@ -45,5 +48,9 @@ input{
   background-color: rgb(12, 158, 158);
   margin: auto;
 }
-
+.list-group-item{
+  color:rgb(2, 99, 99);
+  margin-left: 50px;
+  margin-right: 80px;
+}
 
