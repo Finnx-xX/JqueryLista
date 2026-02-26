@@ -1,0 +1,49 @@
+body{
+  background-color: rgb(14, 197, 197);
+}
+li{
+  cursor:pointer;
+  list-style: none;
+}
+.tytul{
+  text-align: center;
+  color: rgb(2, 95, 95);
+  font-size: 20px;
+  text-shadow: 5px 0px 10px;
+}
+.active{
+  background-color:lightblue;
+}
+
+.main{
+  text-align: center;
+}
+
+button{
+  padding:8px;
+  margin:10px;
+  width:200px;
+  height: 60px;
+  font-weight: bold;
+  text-shadow: 3px 3px 10px;
+  box-shadow: 10px 10px 15px;
+  border-radius: 50px;
+}
+input{
+  margin-top:10px;
+  border-radius: 50px;
+  padding: 5px;
+}
+#searchBtn{
+  height:40px;
+  width:70px;
+}
+.zbiornik{
+  width: 500px;
+  padding: 3px;
+  border-radius: 50px;
+  background-color: rgb(12, 158, 158);
+  margin: auto;
+}
+
+

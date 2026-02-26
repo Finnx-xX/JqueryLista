@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css">
+    <title>Lista zakupów</title>
+  </head>
+  <body>
+    <div class="tytul">
+      <h1>Twoja Lista Zakupów</h1>
+    </div>
+    <div class="main">
+      <div class="dodajDiv">
+        <button class="dodajOdPoczatku">Dodaj produkt od poczatku</button>
+        <button class="dodajOdKonca">Dodaj produkt od końca</button><br>
+        <input type="text" placeholder="Napisz swój produkt..." name="" class="text" maxlength="100">
+      </div>
+      <div class="usunDiv">
+        <button class="usun_pierwszy usunBtn">Usuń pierwszy produkt</button>
+        <button class="usun_liste usunBtn">Usuń listę produktów</button>
+        <button class="usun_ostatni usunBtn">Usuń ostatni produkt</button>
+      </div>
+      <div class="przywrocDiv">
+        <button class="przywroc_produkt_listy przywrocBtn">Przywróć produkt z listy</button>
+        <button class="przywroc_liste przywrocBtn">Przywróć listę</button>
+      </div>
+      <div class="colorDiv">
+        <button class="color-even">Pokoloruj co drugi</button>
+        <button class="empty-color">Oczyść listę z kolorów</button>
+      </div>
+      <div class="sortabcDiv">
+        <button class="ustaw_A-Z">Sortuj alfabetycznie</button>
+      </div>
+      <div class="searchDiv">
+        <input type="text" id="search" placeholder="Wyszukaj element listy...">
+        <button id="searchBtn">Szukaj</button>
+      </div>
+    
+      <div class="zbiornik">
+        <ul class="container">
+          <!-- -------------- Tutaj znajdują się elementy listy -------------- -->
+        </ul>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
