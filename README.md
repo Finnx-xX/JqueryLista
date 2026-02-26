@@ -1,7 +1,2 @@
 # JqueryLista
-
-sdfsbdfsd
-sdfgd
-fgd
-f
-gdsfg
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
