@@ -8,13 +8,20 @@
   </head>
   <body>
     <div class="tytul">
-      <h1>Twoja Lista Zakupów</h1>
+      <h2>Twoja Lista Zakupów</h2>
     </div>
     <div class="main">
       <div class="dodajDiv">
         <button class="dodajOdPoczatku">Dodaj produkt od poczatku</button>
         <button class="dodajOdKonca">Dodaj produkt od końca</button><br>
         <input type="text" placeholder="Napisz swój produkt..." name="" class="text" maxlength="100">
+        <button id="searchBtn">Szukaj</button>
+        <input type="text" id="search" placeholder="Wyszukaj element listy...">
+      </div>
+      <div class="zbiornik">
+        <ul class="container">
+          <!-- -------------- Tutaj znajdują się elementy listy -------------- -->
+        </ul>
       </div>
       <div class="usunDiv">
         <button class="usun_pierwszy usunBtn">Usuń pierwszy produkt</button>
@@ -32,18 +39,9 @@
       <div class="sortabcDiv">
         <button class="ustaw_A-Z">Sortuj alfabetycznie</button>
       </div>
-      <div class="searchDiv">
-        <input type="text" id="search" placeholder="Wyszukaj element listy...">
-        <button id="searchBtn">Szukaj</button>
-      </div>
-    
-      <div class="zbiornik">
-        <ul class="container">
-          <!-- -------------- Tutaj znajdują się elementy listy -------------- -->
-        </ul>
-      </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="script.js"></script>
   </body>
+
 </html>
