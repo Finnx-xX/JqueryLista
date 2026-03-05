@@ -40,6 +40,10 @@ $(document).ready(function() {
   
   setInterval(przywrocBtn, timer);
   setInterval(usunBtn, timer);
+  /*
+  setInterval(colorEven, timer);
+  setInterval(emptyColor, timer);
+  */
 
   $(".usun_pierwszy").click(function(){
     const firstItem = $(".container .list-group-item:first");
@@ -69,7 +73,6 @@ $(document).ready(function() {
   });
  
  function przywrocBtn(){
-  
   if(removedItems.length == 0){
     $(".przywrocBtn").css("background-color","gray");
     $(".przywrocBtn").css("color","rgb(224, 221, 221)");
@@ -109,14 +112,33 @@ function usunBtn(){
     const even = $(".container .list-group-item:even");
     even.css('background-color','lightblue');
   });
+  /*
+  function colorEven(){
+    if($(".container").empty()){
+      $(".color-even").css("background-color","gray").css("box-shadow","10px 10px 15px white").css("color","white");
+    } else{
+      $(".color-even").css("background-color","white");
+      $(".color-even").css("color","black");
+    }
+  }
+    */
   // Wyzeruj kolory
   $(".empty-color").click(function(){
     const empty = $(".container .list-group-item");
-    empty.css('background-color','rgb(12, 158, 158)');
+    empty.css('background-color','white');
   });
+  /*
+  function emptyColor(){
+    if($(".container").empty()){
+      $(".empty-color").css("background-color","gray").css("box-shadow","10px 10px 15px white").css("color","white");
+    } else{
+      $(".empty-color").css("background-color","white");
+      $(".empty-color").css("color","black");
+    }
+  }
+    */
   // class active
   $(".container").on("click", ".list-group-item", function(){
-    
     $(this).toggleClass("active");
   });
   // Sortowanie alfabetyczne
@@ -139,7 +161,7 @@ function usunBtn(){
     $(".container li").each(function() {
       var text = $(this).text().toLowerCase();
       if (text.includes(input)) {
-        $(this).css("background-color","lightblue");
+        $(this).css("background-color","red");
       } else {
         $(this).hide();
       }
