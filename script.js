@@ -110,7 +110,8 @@ function usunBtn(){
   // Even = kolorowanie co drugi
   $(".color-even").click(function(){
     const even = $(".container .list-group-item:even");
-    even.css('background-color','lightblue');
+    even.css("background-color","lightblue");
+    even.css("border-radius","50px");
   });
   /*
   function colorEven(){
@@ -125,7 +126,7 @@ function usunBtn(){
   // Wyzeruj kolory
   $(".empty-color").click(function(){
     const empty = $(".container .list-group-item");
-    empty.css('background-color','white');
+    empty.css("background-color","rgb(12, 158, 158)");
   });
   /*
   function emptyColor(){
