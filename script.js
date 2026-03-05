@@ -162,7 +162,7 @@ function usunBtn(){
     $(".container li").each(function() {
       var text = $(this).text().toLowerCase();
       if (text.includes(input)) {
-        $(this).css("background-color","lightgreen");
+        $(this).css("background-color","lightgreen").css("border-radius","50px");
       } else {
         $(this).hide();
       }
